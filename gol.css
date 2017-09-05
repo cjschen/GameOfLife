@@ -1,0 +1,59 @@
+body {
+    font-family: Roberto, sans-serif;
+}
+
+table, td, tr {
+   border-collapse: collapse;
+   border: 1px solid #ddd;
+}
+
+td {
+    width: 15px;
+    height: 15px;
+}
+
+#main {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+}
+
+.toggled {
+    background-color: #b2dbf7;
+    border: 1px solid #c5d3e0 !important;
+}
+
+table {
+    border: black;
+    table-layout: fixed;
+    clear:both;
+}
+
+.button:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+} 
+
+.button:active {
+    background-color: #d6d6d6;
+}
+
+#play-pause-icon {
+    float: left;
+    margin-right: 8px;
+    font-size: 14px;
+    width: 10px;
+}
+
+.button {    
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px black solid;
+    margin-left: 0px;-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
